@@ -7,7 +7,7 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-backgroundColor: Colors.grey[800],
+backgroundColor: Colors.transparent,
       body: Column(
         children: <Widget>[
           Flexible(
@@ -25,16 +25,16 @@ backgroundColor: Colors.grey[800],
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(10),
                     color: Color(0x272c39),
-                    boxShadow:  [
-                      const BoxShadow(
+                    boxShadow:  const [
+                      BoxShadow(
                         color: Colors.black,
                         offset:  Offset(5, 5),
                         blurRadius: 15,
                         spreadRadius: 5,
                       ),
                       BoxShadow (
-                        color: Colors.grey.shade900,
-                        offset: const Offset(-4, -4),
+                        color: Colors.white10,
+                        offset: Offset(-5, -5),
                         blurRadius: 15,
                         spreadRadius: 1,
                       ),
@@ -52,16 +52,16 @@ backgroundColor: Colors.grey[800],
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(15.0),
                     color: Color(0x272c39),
-                      boxShadow:  [
+                      boxShadow:  const [
                         BoxShadow(
                           color: Colors.black,
-                          offset: const Offset(5, 5),
+                          offset: Offset(5, 5),
                           blurRadius: 15,
                           spreadRadius: 5,
                         ),
                          BoxShadow (
-                          color: Colors.grey.shade900,
-                          offset: Offset(-4, -4),
+                          color: Colors.white10,
+                          offset: Offset(-5, -5),
                           blurRadius: 15,
                           spreadRadius: 1,
                         ),
@@ -82,16 +82,16 @@ backgroundColor: Colors.grey[800],
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(15.0),
                     color: Color(0x272c39),
-                      boxShadow:  [
+                      boxShadow:  const [
                         BoxShadow(
                           color: Colors.black,
-                          offset: const Offset(5, 5),
+                          offset: Offset(5, 5),
                           blurRadius: 15,
                           spreadRadius: 5,
                         ),
                          BoxShadow (
-                          color: Colors.grey.shade900,
-                          offset: Offset(-4, -4),
+                          color: Colors.white10,
+                          offset: Offset(-5, -5),
                           blurRadius: 15,
                           spreadRadius: 1,
                         ),
@@ -109,17 +109,17 @@ backgroundColor: Colors.grey[800],
                   width: 40,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(15.0),
-                    color: Color(0x272c39),
-                      boxShadow:  [
+                    color: const Color(0x272c39),
+                      boxShadow:  const [
                         BoxShadow(
                           color: Colors.black,
-                          offset: const Offset(5, 5),
+                          offset: Offset(5, 5),
                           blurRadius: 15,
                           spreadRadius: 5,
                         ),
                          BoxShadow (
-                          color: Colors.grey.shade900,
-                          offset: Offset(-4, -4),
+                          color: Colors.white10,
+                          offset: Offset(-5, -5),
                           blurRadius: 15,
                           spreadRadius: 1,
                         ),
@@ -138,16 +138,16 @@ backgroundColor: Colors.grey[800],
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(15.0),
                     color: Color(0x272c39),
-                      boxShadow:  [
+                      boxShadow:  const [
                         BoxShadow(
                           color: Colors.black,
-                          offset: const Offset(5, 5),
+                          offset: Offset(5, 5),
                           blurRadius: 15,
                           spreadRadius: 5,
                         ),
                          BoxShadow (
-                          color: Colors.grey.shade900,
-                          offset: Offset(-4, -4),
+                          color: Colors.white10,
+                          offset: Offset(-5, -5),
                           blurRadius: 15,
                           spreadRadius: 1,
                         ),
@@ -166,16 +166,16 @@ backgroundColor: Colors.grey[800],
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(15.0),
                     color: Color(0x272c39),
-                      boxShadow:  [
+                      boxShadow:  const [
                         BoxShadow(
                           color: Colors.black,
-                          offset: const Offset(5, 5),
+                          offset: Offset(5, 5),
                           blurRadius: 15,
                           spreadRadius: 5,
                         ),
                          BoxShadow (
-                          color: Colors.grey.shade900,
-                          offset: Offset(-4, -4),
+                          color: Colors.white10,
+                          offset: Offset(-5, -5),
                           blurRadius: 15,
                           spreadRadius: 1,
                         ),
@@ -200,17 +200,17 @@ backgroundColor: Colors.grey[800],
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(20),
                 color: Color(0x272c39) ,
-                  boxShadow:  [
+                  boxShadow:  const [
                     BoxShadow(
                       color: Colors.black,
-                      offset: const Offset(5, 5),
+                      offset: Offset(5, 5),
                       blurRadius: 15,
                       spreadRadius: 5,
 
                     ),
                      BoxShadow (
-                      color: Colors.grey.shade900,
-                      offset: Offset(-4, -4),
+                      color: Colors.white10,
+                      offset: Offset(-5, -5),
                       blurRadius: 15,
                       spreadRadius: 1,
                     ),

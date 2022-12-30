@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:sizer/sizer.dart';
+import 'package:untitled/NewPage.dart';
 import 'homepage.dart';
 
 void main(){
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
 
     return const MaterialApp(
         debugShowCheckedModeBanner: false,
-        home:  HomePage()
+        home:  NewPage()
     );
   }
 }

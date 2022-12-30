@@ -38,6 +38,9 @@ dependencies:
   cupertino_icons: ^1.0.2
   sizer: ^2.0.15
   lottie: ^2.1.0
+  google_fonts: ^3.0.1
+  page_transition: ^2.0.9
+
 
 
 dev_dependencies:
