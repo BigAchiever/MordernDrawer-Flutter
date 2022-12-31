@@ -4,12 +4,11 @@ import 'package:sizer/sizer.dart';
 import 'package:untitled/NewPage.dart';
 import 'homepage.dart';
 
-void main(){
+void main() {
   SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
     statusBarColor: Colors.transparent,
   ));
   runApp(const MyApp());
-
 }
 
 class MyApp extends StatelessWidget {
@@ -17,10 +16,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-
     return const MaterialApp(
-        debugShowCheckedModeBanner: false,
-        home:  NewPage()
-    );
+        debugShowCheckedModeBanner: false, home: NewPage());
   }
 }

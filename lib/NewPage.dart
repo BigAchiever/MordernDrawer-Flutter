@@ -33,7 +33,7 @@ backgroundColor: const Color(0xff1c202b),
                       context,
                       PageTransition(
                           type: PageTransitionType.fade,
-                          duration: const Duration(milliseconds: 500),
+                          duration: const Duration(milliseconds: 1000),
                           child: const HomePage()));
                 },
                 child: Container(
